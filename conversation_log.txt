@@ -1,0 +1,83 @@
+SECTION 1.1 – INITIAL PROMPT & PSEUDOCODE
+
+My Prompt:
+I asked the AI to create clear pseudocode for a command-line Quiz Generator that reads question/answer pairs from a text file, asks the user for a number of questions, randomly selects that many unique questions, quizzes the user, and displays the final score. 
+The program must only use concepts taught up to Week 10 (Week 6 – basic file reading and input validation, Week 2 – lists, Week 7 – simple random). I also requested the AI to follow the six-step planning method from Week 2.
+
+AI Response Summary:
+The AI generated structured pseudocode with functions for loading questions, validating user input, choosing random indices, and running the quiz. Each part included inline Week references and demonstrated file reading, simple loops, and random selection within the course limits.
+
+Personal Reflection:
+The AI followed the planning sequence correctly. Its pseudocode was modular and easy to test, aligning with the Week 2 computational thinking process.
+
+Course Reference:
+Used the Week 2 six-step planning method from Computational Thinking & Algorithm Design.
+
+
+SECTION 1.2 – TWO PROMPT REFINEMENTS
+
+Refinement 1 Prompt:
+I asked the AI to enhance the pseudocode to handle file validation and user input errors, ensuring missing or invalid files are managed gracefully and that question counts are checked for valid ranges using Week 6 techniques.
+
+AI Response Summary (R1):
+The AI added simple try/except logic for file opening, skipping malformed lines, validating N within range, and clear user messages. It kept all logic within Weeks 2 and 6 constraints.
+
+Refinement 2 Prompt:
+I requested another improvement to add user-friendly features, such as a simple text-based menu and automatic delimiter detection, using only Week 3 menu design, Week 2 string handling, and Week 7 simple random.
+
+AI Response Summary (R2):
+The AI introduced a `display_main_menu()` function with numbered options and added delimiter detection for different file formats. It also preserved earlier validation and random-selection logic.
+
+Comparison:
+The first refinement improved robustness; the second improved usability. Both stayed inside the ≤ Week 10 scope and maintained readable structure.
+
+Course References:
+– Refinement 1 applied Week 6 file operations & input validation with Week 2 lists.  
+– Refinement 2 applied Week 3 menu design, Week 7 simple random, and Week 2 string handling.
+
+
+SECTION 1.3 – CRITICAL ANALYSIS
+
+Prompt:
+I summarised both refinements and asked the AI to produce a concise critical analysis (≤150 words) linking each improvement to specific weeks.
+
+AI Response Summary:
+The AI provided a paragraph explaining that Refinement 1 strengthened robustness via Week 6 validation, while Refinement 2 enhanced fairness and UX using Week 7 random selection, Week 2 string/list handling, and Week 3 menus. The final version remained fully within the course scope.
+
+Course Reference:
+Applied Week 2 planning, Week 6 validation, Week 7 random selection, and Week 3 interface design.
+
+
+SECTION 2.1 – ERROR DETECTION PRACTICE
+
+My Prompt:
+I asked the AI to analyse a buggy chatbot program and identify beginner-level mistakes related to variable naming, scope, and conversation-logging logic.
+
+AI Response Summary:
+The AI detected four main errors:  
+1. Mismatched variable names (`memory` vs `memories`).  
+2. Scope issue where the loop referenced an undefined variable.  
+3. Logic gap—only bot replies were stored.  
+4. Edge-case omission when the user quits immediately.
+
+Comparison:
+My own review caught the naming error and scope issue. The AI extended the analysis to cover missing input storage and the empty-history case.
+
+Course Reference:
+Applied Week 1 AI-assisted debugging and basic control-flow understanding from Python Fundamentals.
+
+
+SECTION 2.2 – FIX & LEARN
+
+My Prompt:
+I requested a corrected chatbot using only basic Python techniques: consistent variable names, proper conversation recording, and safe final display with minimal doctests.
+
+AI Response Summary:
+The AI rewrote the function `simple_chatbot()` with a consistent variable name (`conversation_history`), added storage for both user and bot messages, and checked for empty history before printing. It included doctest examples and used only Week 1–3 fundamentals.
+
+Reflection:
+The revised version fixed naming and scope issues, improved readability, and ensured the program handled early exits gracefully while staying within the taught scope.
+
+Course References:
+– Week 1 debugging and error-fixing approach.  
+– Week 2–3 fundamentals: variables, loops, strings, and conditionals.
