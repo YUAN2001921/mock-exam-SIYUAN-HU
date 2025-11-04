@@ -91,4 +91,35 @@ AI response:
 Provided a structured solution that validates input paths, reads CSV data with try/except, filters non-numeric entries, and summarises results through basic conditional logic.
 Course constraint applied: We combined Week 6 file validation and input checking, Week 7 iteration and data processing, and Week 8 exception handling fundamentals to create a cohesive and beginner-appropriate solution.
 
+SECTION 3.3 – KEY INTERACTION:
+My prompt: 
+Asked the artificial intelligence to compare the original and refined quiz score analysis functions by identifying similarities, differences, course connections, and learning goals.
+
+AI response: 
+Produced a comparison describing how both versions share validation and cleaning logic, but differ in error handling depth and result structure, and concluded with relevant weekly learning connections.
+
+Course constraint applied:
+Applied Week Four function design, Week Six file validation, Week Seven iteration and data cleaning, and Week Eight exception handling fundamentals to explain improvements within the Week Ten scope.
+
+SECTION 4.1 – KEY INTERACTION:
+My prompt: 
+Asked the artificial intelligence to remind me of beginner-level syntax for reading text files, splitting lines by a delimiter, and shuffling indices for random question selection.
+
+AI response:
+Provided syntax examples for using “with open()” and “split(‘|’, 1)” for file reading, and “random.shuffle()” for simple non-repeating selection.
+
+Course constraint applied: 
+I applied Week Two list and string concepts, Week Five iteration and conditionals, Week Six file operations and input validation, and Week Seven random selection to manually implement all quiz functions without using advanced syntax.
+
+SECTION 4.2 – KEY INTERACTION:
+My prompt: 
+Asked the artificial intelligence to guide the structure of a 200-word reflection divided into three sections (Course Constraint Application, Learning Connection, and Skill Development) following the course reflection format.
+
+AI response: 
+Returned a clearly structured reflection draft linking each coding decision to specific weekly knowledge areas including Week Five loops, Week Six file handling, and Week Eight exception handling.
+
+Course constraint applied: 
+Followed the reflective writing model taught in class, referencing Week Four function design, Week Five iteration, Week Six file validation, Week Seven data processing, and Week Eight exception handling fundamentals to produce a coherent and authentic reflection within the Week Ten content limit.
+
+
 
