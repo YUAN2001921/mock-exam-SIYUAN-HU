@@ -81,3 +81,14 @@ The revised version fixed naming and scope issues, improved readability, and ens
 Course References:
 – Week 1 debugging and error-fixing approach.  
 – Week 2–3 fundamentals: variables, loops, strings, and conditionals.
+
+
+SECTION 3.2 – KEY INTERACTION:
+My prompt: 
+Asked the AI to help refine a CSV-based quiz score analysis function that validates file existence, checks required columns, cleans invalid data, and reports simple statistics within Week 10 limits.
+
+AI response: 
+Provided a structured solution that validates input paths, reads CSV data with try/except, filters non-numeric entries, and summarises results through basic conditional logic.
+Course constraint applied: We combined Week 6 file validation and input checking, Week 7 iteration and data processing, and Week 8 exception handling fundamentals to create a cohesive and beginner-appropriate solution.
+
+
